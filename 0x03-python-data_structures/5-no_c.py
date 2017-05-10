@@ -7,4 +7,3 @@ def no_c(my_string):
         else:
             continue
     return (new)
-
