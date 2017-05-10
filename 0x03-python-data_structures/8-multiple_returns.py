@@ -2,5 +2,10 @@
 def multiple_returns(sentence):
     l = len(sentence)
     c = sentence[0]
-    new = (l, c)
-    return (new)
+    if l < 1:
+        new = (0, )
+        return (new)
+    else:
+        c = sentence[0]
+        new = (l, c)
+        return (new)
