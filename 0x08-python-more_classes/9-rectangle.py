@@ -87,3 +87,8 @@ class Rectangle:
                 raise TypeError("rect_2 must be an instance of Rectangle")
         else:
             raise TypeError("rect_1 must be an instance of Rectangle")
+
+    @classmethod
+    def square(cls, size=0):
+        """uses the rect method to make a square with 1 input"""
+        return Rectangle(size, size)
